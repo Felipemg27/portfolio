@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/main.css">
+    <title>Portfólio | Felipe Veloso</title>
+</head>
+<body>
+    <div class="barra-xp" id="barra-xp"></div>
+    <div class="fundo-animado" aria-hidden="true">
+        <span class="faixa faixa-1"></span>
+        <span class="faixa faixa-2"></span>
+        <span class="faixa faixa-3"></span>
+        <span class="bolha bolha-1"></span>
+        <span class="bolha bolha-2"></span>
+        <span class="bolha bolha-3"></span>
+    </div>
+
+    <header>
+        <a class="logo" href="#inicio">F</a>
+        <nav>
+            <ul>
+                <li><a data-nav href="#inicio">Home</a></li>
+                <li><a data-nav href="#sobre">Sobre</a></li>
+                <li><a data-nav href="#projetos">Projetos</a></li>
+                <li><a data-nav href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="social-lateral">
+            <a href="https://github.com/Felipemg27" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/felipevelosodias/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:felipemq123@Outlook.com">Email</a>
+        </div>
+    </header>
+
+    <div class="ticker" aria-hidden="true">
+        <div class="ticker-trilha">
+            <div class="ticker-grupo">
+                <span>HTML5</span><i>◆</i><span>CSS3</span><i>◆</i><span>JavaScript</span><i>◆</i><span>React</span><i>◆</i><span>React Native</span><i>◆</i><span>TypeScript</span><i>◆</i><span>Python</span><i>◆</i><span>Node.js</span><i>◆</i><span>Git</span><i>◆</i><span>GitHub</span><i>◆</i>
+            </div>
+            <div class="ticker-grupo">
+                <span>HTML5</span><i>◆</i><span>CSS3</span><i>◆</i><span>JavaScript</span><i>◆</i><span>React</span><i>◆</i><span>React Native</span><i>◆</i><span>TypeScript</span><i>◆</i><span>Python</span><i>◆</i><span>Node.js</span><i>◆</i><span>Git</span><i>◆</i><span>GitHub</span><i>◆</i>
+            </div>
+        </div>
+    </div>
+
+    <section class="principal reveal" id="inicio">
+        <div>
+            <span class="status-disponivel"><span class="ponto-verde"></span>Disponível para projetos</span>
+            <span class="kicker">Olá, eu sou</span>
+            <h1>Felipe Veloso.</h1>
+            <p>Desenvolvedor Full Stack Júnior com experiência em projetos acadêmicos, pessoais e como freelancer — aplicações web e mobile, integração de APIs e notificações push.</p>
+            <ul class="hero-fatos">
+                <li>Rio de Janeiro, RJ</li>
+                <li>Freelancer desde 2026</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="secao reveal" id="sobre">
+        <h2 class="titulo-secao"><span class="kicker">// sobre</span>Sobre mim</h2>
+
+        <div class="sobre">
+            <div class="foto-moldura">
+                <img class="img-sobre" src="/img/foto-perfil.png" alt="Foto de perfil - Felipe Veloso">
+            </div>
+
+            <div class="conteudo-sobre">
+                <h2>Desenvolvedor Full Stack Júnior</h2>
+                <p>Sou desenvolvedor de software com experiência em projetos acadêmicos, pessoais e como freelancer. Atuo no desenvolvimento de interfaces responsivas e aplicações com React, JavaScript, Python e tecnologias mobile — incluindo integração de APIs, geolocalização e notificações push. Graduado em Análise e Desenvolvimento de Sistemas, com foco em aprendizado contínuo e evolução técnica.</p>
+
+                <div class="habilidades">
+                    <span class="tag-habilidade">HTML5</span>
+                    <span class="tag-habilidade">CSS</span>
+                    <span class="tag-habilidade">JavaScript</span>
+                    <span class="tag-habilidade">React</span>
+                    <span class="tag-habilidade">React Native</span>
+                    <span class="tag-habilidade">TypeScript</span>
+                    <span class="tag-habilidade">Python</span>
+                    <span class="tag-habilidade">Node.js</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao reveal" id="projetos">
+        <h2 class="titulo-secao"><span class="kicker">// projetos</span>Projetos</h2>
+
+        <div class="grade-projetos" id="grade-projetos">
+            <img class="img-projeto" src="./img/Captura de tela 2026-09-02 110144.png">
+            <div class="descricao-projeto">
+                <h3>Mapa temporal</h3>
+                <p>projeto que mostra temperatura de diferentes regiões do brasil feito com dados climáticos em tempo real.</p>
+                <a href="https://github.com/Felipemg27/DesenvolvimentoWeb" class="botao efeito-cursor">Ver projeto</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="secao reveal" id="contato">
+        <h2 class="titulo-secao"><span class="kicker">// contato</span>Contato</h2>
+
+        <div class="botoes-contato">
+            <a href="mailto:felipemq123@outlook.com" class="botao-contato email efeito-cursor">felipemq123@outlook.com</a>
+            <a href="https://www.linkedin.com/in/felipevelosodias/" target="_blank" rel="noopener noreferrer" class="botao-contato linkedin efeito-cursor">Linkedin</a>
+            <a href="https://github.com/Felipemg27" target="_blank" rel="noopener noreferrer" class="botao-contato github efeito-cursor">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        Meu Portfólio. Feito com muito empenho 💙!
+    </footer>
+
+    <div class="modal-overlay" id="modal-projeto" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+            <button class="modal-fechar" id="modal-fechar" aria-label="Fechar detalhes do projeto">×</button>
+            <img class="modal-img" id="modal-imagem" src="" alt="">
+            <div class="modal-info">
+                <h3 id="modal-titulo"></h3>
+                <div class="modal-tags" id="modal-tags"></div>
+                <p id="modal-descricao"></p>
+                <div class="modal-galeria" id="modal-galeria"></div>
+                <a class="botao" id="modal-link" href="#" target="_blank" rel="noopener noreferrer">Abrir projeto</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="modal-fechar" id="lightbox-fechar" aria-label="Fechar imagem expandida">×</button>
+        <img id="lightbox-imagem" src="" alt="">
+    </div>
+
+    <div class="cursor"></div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
